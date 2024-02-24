@@ -1,0 +1,46 @@
+/*-----Google Font-----*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Stencil+One&display=swap');
+
+body {
+    padding: 40px 0;
+    font-family: "Roboto", sans-serif;
+}
+h1, h4, p {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 30px;
+    margin: 40px;
+}
+p {
+    font-size: 20px;
+}
+a {
+    color: #000;
+    transition: all .25s ease-in-out;
+}
+a:hover {
+    color: #f00;
+}
+.ncoder {
+    font-size: 32px;
+    font-family: "Saira Stencil One", sans-serif;
+    text-decoration: none;
+}
+/* ================================= */
+/* :: SmoothSlider Section CSS Start */
+/* ================================= */
+#company-section {
+	padding: 80px 0;
+}
+.company-slider .swiper-wrapper {
+    transition-timing-function: linear;
+}
+/* =============================== */
+/* :: SmoothSlider Section CSS End */
+/* =============================== */
